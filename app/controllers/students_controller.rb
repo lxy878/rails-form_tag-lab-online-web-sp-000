@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    puts params
+    puts params[:student]
     student = Student.new(params[:student])
     if student.save
       redirect_to student_path(student.id)
