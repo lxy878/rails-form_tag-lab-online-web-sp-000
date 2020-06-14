@@ -12,5 +12,6 @@ class StudentsController < ApplicationController
   end
 
   def create
+    redirect_to student_path
   end
 end
