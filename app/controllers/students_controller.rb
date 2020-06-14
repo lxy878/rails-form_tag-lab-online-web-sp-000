@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    
+    binding.pry
     redirect_to student_path
   end
 end
