@@ -17,7 +17,7 @@ class StudentsController < ApplicationController
     if student.save
       redirect_to student_path(student.id)
     else
-      puts params[:studnet]
+      puts params[:student]
     end
   end
 end
