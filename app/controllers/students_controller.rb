@@ -12,8 +12,8 @@ class StudentsController < ApplicationController
   end
 
   def create
-    raise params[:student]
-    student = Student.create(params[:student])
-    redirect_to student_path(student.id)
+
+    # student = Student.create(params[:student])
+    # redirect_to student_path(student.id)
   end
 end
